@@ -132,6 +132,10 @@ body {
         padding: 5%;
     }
 
+    .conteudo__foto {
+        width: 80%;
+    }
+
     .conteudo__section {
         width: auto; /* É tipo 'pega o paddin e usa o que sobrou' */
     }
