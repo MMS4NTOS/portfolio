@@ -130,6 +130,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    justify-content: space-between;
 }
 
 .portfolio_conteudo {
@@ -140,7 +141,15 @@ body {
 
 .portfolio-gif {
     width: 31.25rem;
+    border: 0.1rem solid var(--cor-secundaria);
+    border-radius: 0.2rem;
+   }
+
+.portfolio-gif:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
+
 
 @media (max-width: 990px ) {
     .cabecalho {
@@ -163,6 +172,12 @@ body {
     .conteudo__section {
         width: auto; /* É tipo 'pega o padding e usa o que sobrou' */
     }
+
+    .conteudo__portfolio {
+        flex-direction: column;
+    }
+
+
 
 
 }
